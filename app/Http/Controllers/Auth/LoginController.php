@@ -48,7 +48,12 @@ class LoginController extends Controller
             'password' => 'required'
         ]);
 
-        if( Auth::attempt(['email'=>$request->email, 'password'=>$request->password]) ) {
+        // $request->validate([
+        //     'email' => 'email|required',
+        //     'password' => 'required'
+        // ]);
+
+        if( $this->guard('api')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
             $user = Auth::user();
 
             $token = $user->createToken($user->email.'-'.now());
