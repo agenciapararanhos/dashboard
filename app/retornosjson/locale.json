@@ -1,0 +1,18 @@
+{
+    "meta": {
+    "total": 3,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/locale"
+    }
+    
+    ,"data": [{"id":"1","type":"locale","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/locale?id=1","allow":["GET"]},"resources":{"href":"http:\/\/localhost:8000\/jsonapi?locale=en&currency=EUR","allow":["OPTIONS"]}},"attributes":{"locale.id":"1","pos":"0","locale.siteid":"1.","locale.languageid":"en","locale.currencyid":"EUR","locale.position":0,"locale.status":1}},{"id":"2","type":"locale","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/locale?id=2","allow":["GET"]},"resources":{"href":"http:\/\/localhost:8000\/jsonapi?locale=en&currency=USD","allow":["OPTIONS"]}},"attributes":{"locale.id":"2","pos":"1","locale.siteid":"1.","locale.languageid":"en","locale.currencyid":"USD","locale.position":1,"locale.status":1}},{"id":"3","type":"locale","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/locale?id=3","allow":["GET"]},"resources":{"href":"http:\/\/localhost:8000\/jsonapi?locale=de&currency=EUR","allow":["OPTIONS"]}},"attributes":{"locale.id":"3","pos":"2","locale.siteid":"1.","locale.languageid":"de","locale.currencyid":"EUR","locale.position":2,"locale.status":1}}]
+    
+    }

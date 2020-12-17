@@ -1,0 +1,34 @@
+{
+    "meta": {
+    "total": 1,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/customer"
+    ,"customer/address": {
+    "href": "http://localhost:8000/jsonapi/customer?related=address",
+    "allow": ["GET","POST"]
+    }
+    ,"customer/property": {
+    "href": "http://localhost:8000/jsonapi/customer?related=property",
+    "allow": ["GET","POST"]
+    }
+    ,"customer/relationships": {
+    "href": "http://localhost:8000/jsonapi/customer?related=relationships",
+    "allow": ["GET","POST"]
+    }
+    ,"customer/review": {
+    "href": "http://localhost:8000/jsonapi/customer?related=review",
+    "allow": ["GET","POST"]
+    }
+    }
+    ,"data": {"id":null,"type":"customer","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/customer","allow":["DELETE","GET","PATCH"]}},"attributes":{"customer.id":null,"customer.salutation":"","customer.company":"","customer.vatid":"","customer.title":"","customer.firstname":"","customer.lastname":"","customer.address1":"","customer.address2":"","customer.address3":"","customer.postal":"","customer.city":"","customer.state":"","customer.languageid":null,"customer.countryid":null,"customer.telephone":"","customer.email":"","customer.telefax":"","customer.website":"","customer.longitude":null,"customer.latitude":null,"customer.birthday":null,"customer.label":"","customer.code":""}}
+    ,"included": []
+    
+    }

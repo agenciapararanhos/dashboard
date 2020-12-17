@@ -1,0 +1,20 @@
+{
+    "meta": {
+    "total": 0,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/review?page%5Boffset%5D=0"
+    }
+    
+    
+    ,"data": []
+    
+    }

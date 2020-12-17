@@ -1,0 +1,19 @@
+{
+    "meta": {
+    "total": 1,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/catalog"
+    }
+    
+    ,"data": {"id":"1","type":"catalog","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/catalog?id=1","allow":["GET"]}},"attributes":{"catalog.url":"Home","catalog.code":"home","catalog.label":"Home","catalog.config":[],"catalog.status":1,"catalog.target":"","catalog.hasChildren":false}}
+    ,"included": []
+    
+    }

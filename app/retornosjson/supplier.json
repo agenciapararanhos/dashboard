@@ -1,0 +1,19 @@
+{
+    "meta": {
+    "total": 2,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/supplier?page%5Boffset%5D=0"
+    }
+    
+    ,"data": [{"id":"1","type":"supplier","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/supplier?id=1","allow":["GET"]}},"attributes":{"supplier.id":"1","supplier.code":"demo-test1","supplier.label":"Test supplier 1","supplier.status":1}},{"id":"2","type":"supplier","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/supplier?id=2","allow":["GET"]}},"attributes":{"supplier.id":"2","supplier.code":"demo-test2","supplier.label":"Test supplier 2","supplier.status":1}}]
+    ,"included": []
+    
+    }

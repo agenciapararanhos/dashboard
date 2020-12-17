@@ -1,0 +1,21 @@
+{
+    "meta": {
+    "total": 7,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    
+    },
+    
+    "links": {
+    "self": "http://localhost:8000/jsonapi/stock?page%5Boffset%5D=0"
+    }
+    
+    
+    ,"data": [{"id":"1","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=1","allow":["GET"]}},"attributes":{"stock.id":"1","stock.productcode":"demo-article","stock.stocklevel":null,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}},{"id":"2","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=2","allow":["GET"]}},"attributes":{"stock.id":"2","stock.productcode":"demo-selection-article-1","stock.stocklevel":5,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}},{"id":"3","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=3","allow":["GET"]}},"attributes":{"stock.id":"3","stock.productcode":"demo-selection-article-2","stock.stocklevel":0,"stock.timeframe":"","stock.dateback":"2015-01-01 12:00:00","stock.type":"default"}},{"id":"4","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=4","allow":["GET"]}},"attributes":{"stock.id":"4","stock.productcode":"demo-selection-article","stock.stocklevel":5,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}},{"id":"5","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=5","allow":["GET"]}},"attributes":{"stock.id":"5","stock.productcode":"demo-bundle-article","stock.stocklevel":10,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}},{"id":"6","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=6","allow":["GET"]}},"attributes":{"stock.id":"6","stock.productcode":"demo-voucher","stock.stocklevel":null,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}},{"id":"7","type":"stock","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/stock?id=7","allow":["GET"]}},"attributes":{"stock.id":"7","stock.productcode":"demo-rebate","stock.stocklevel":null,"stock.timeframe":"","stock.dateback":null,"stock.type":"default"}}]
+    
+    }

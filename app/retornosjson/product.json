@@ -1,0 +1,18 @@
+{
+    "meta": {
+    "total": 4,
+    "prefix": null,
+    "content-baseurl": "http://localhost:8000"
+    , "csrf": {
+    "name": "_token",
+    "value": "B5V34IOVcWwBRg6aSmrmEdZPfWvW6RgRdrREbXud"
+    }
+    },
+    "links": {
+    "self": "http://localhost:8000/jsonapi/product?page%5Boffset%5D=0"
+    }
+    
+    ,"data": [{"id":"1","type":"product","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/product?id=1","allow":["GET"]},"basket\/product":{"href":"http:\/\/localhost:8000\/jsonapi\/basket?id=default&related=product","allow":["POST"]}},"attributes":{"product.id":"1","product.url":"Demo-article","product.type":"default","product.code":"demo-article","product.label":"Demo article","product.status":1,"product.dataset":"","product.datestart":null,"product.dateend":null,"product.config":[],"product.scale":1,"product.target":"","product.ctime":"2020-12-14 08:18:50","product.rating":"0.00","product.ratings":0}},{"id":"4","type":"product","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/product?id=4","allow":["GET"]},"basket\/product":{"href":"http:\/\/localhost:8000\/jsonapi\/basket?id=default&related=product","allow":["POST"]}},"attributes":{"product.id":"4","product.url":"Demo-selection-article","product.type":"select","product.code":"demo-selection-article","product.label":"Demo selection article","product.status":1,"product.dataset":"","product.datestart":null,"product.dateend":null,"product.config":[],"product.scale":1,"product.target":"","product.ctime":"2020-12-14 08:18:51","product.rating":"0.00","product.ratings":0}},{"id":"5","type":"product","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/product?id=5","allow":["GET"]},"basket\/product":{"href":"http:\/\/localhost:8000\/jsonapi\/basket?id=default&related=product","allow":["POST"]}},"attributes":{"product.id":"5","product.url":"Demo-bundle-article","product.type":"bundle","product.code":"demo-bundle-article","product.label":"Demo bundle article","product.status":1,"product.dataset":"","product.datestart":null,"product.dateend":null,"product.config":[],"product.scale":1,"product.target":"","product.ctime":"2020-12-14 08:18:51","product.rating":"0.00","product.ratings":0}},{"id":"6","type":"product","links":{"self":{"href":"http:\/\/localhost:8000\/jsonapi\/product?id=6","allow":["GET"]},"basket\/product":{"href":"http:\/\/localhost:8000\/jsonapi\/basket?id=default&related=product","allow":["POST"]}},"attributes":{"product.id":"6","product.url":"Demo-voucher","product.type":"voucher","product.code":"demo-voucher","product.label":"Demo voucher","product.status":1,"product.dataset":"","product.datestart":null,"product.dateend":null,"product.config":[],"product.scale":1,"product.target":"","product.ctime":"2020-12-14 08:18:51","product.rating":"0.00","product.ratings":0}}]
+    ,"included": []
+    
+    }
